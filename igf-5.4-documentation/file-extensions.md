@@ -26,6 +26,7 @@ The documentation is currently being worked on and is incomplete in its current 
 <summary>Packaged Game File Extensions</summary>
 
 * .invpk - An modified PAK file storing cooked game assets.
+* .sig - A signature for an invpk file, verified by games on startup to make sure no assets have been illegally modified.
 * .invtablecontents - A file holding a table of contents for all game assets.
 * .invcontent - A file holding all raw .invasset files.
 
